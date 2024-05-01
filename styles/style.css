@@ -1,0 +1,282 @@
+/*Our app*/
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f6f6fa;
+}
+.app-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 40px auto;
+  background-color: #fff;
+}
+
+/*Side bar styles*/
+.sidebar-section {
+  background-color: #dfeeff;
+}
+
+.sidebar-iamge {
+  margin-top: 40px;
+}
+
+.contacts-container {
+  padding-left: 40px;
+}
+
+.contacts-header {
+  color: #161d2a;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contacts-item {
+  color: #161d2a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.contacts-phone {
+  color: #4489ff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.contacts-email {
+  color: #4489ff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 10px;
+}
+
+.contacts-element {
+  margin-top: -12px;
+}
+
+.tech-skills-section {
+  padding-left: 40px;
+  margin-top: 40px;
+}
+
+.tech-skills-header {
+  color: #161d2a;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tech-skills-list {
+  color: #161d2a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -10px;
+  margin-left: -15px;
+}
+
+.soft-skills-section {
+  padding-left: 40px;
+  margin-top: 40px;
+}
+
+.soft-skills-header {
+  color: #161d2a;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.soft-skills-list {
+  color: #161d2a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: -10px;
+  margin-left: -15px;
+}
+
+/*Main content styles*/
+.right-side-container {
+  padding-left: 88px;
+  padding-top: 80px;
+  padding-right: 140px;
+  padding-bottom: 180px;
+}
+
+.about-me-proffesion {
+  color: #161d2a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-me-name {
+  color: #161d2a;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -15px;
+}
+
+.about-me-description {
+  color: #595959;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  margin-top: -15px;
+}
+
+.projects-section {
+  margin-top: 4 0px;
+}
+
+.projects-header {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.projects-list {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+
+.project-name {
+  color: #595959;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+.project-info {
+  font-weight: 400;
+}
+
+.work-experience-section {
+  margin-top: 40px;
+}
+
+.work-experience-header {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.comapny-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.company-info {
+  color: #6096ff;
+  margin-left: 10px;
+}
+
+.comany-time {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -10px;
+}
+
+.company-elements-list {
+  color: #595959;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: -15px;
+  margin-top: -5px;
+}
+
+.company-container {
+  margin-top: -10px;
+}
+
+.education-header {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 8px;
+}
+
+.national-univ-item {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #6096ff;
+  margin-top: -10px;
+}
+
+.managment-item {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -10px;
+}
+
+.company-time-education {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -8px;
+}
+.company-info-3nd {
+  color: #6096ff;
+}
+
+.education-section-footer {
+  color: #6096ff;
+  margin-top: 8px;
+}
+
+.fullstack-section {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -10px;
+}
+
+.company-time-eudcation {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -10px;
+}
